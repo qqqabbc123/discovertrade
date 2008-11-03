@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="org.discover.trading.ioReader" id="{UMLID=_Cw9tIYF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io}" metadata="uml2-1.0" initialized="true" scrolledX="34" tag="10" key="323030373036323920446973636F766572">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.0" name="IQuoteReader" location="210,0" size="154,115" timstampe="59" stereotype="interface" id="{UMLID=_Uhz4kIF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/IQuoteReader}" runTimeClassModel="readAll(),close(),read()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,18">
+      <children xsi:type="editmodel:MethodEditModel" name="read" size="65,16" id="{UMLID=_jptr0IF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/IQuoteReader#read()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readAll" size="78,16" id="{UMLID=_O-nU4IdLEd2rObMNM5HKUA,JavaID=org.discover.trading.io/IQuoteReader#readAll()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="close" size="69,16" id="{UMLID=_O-xF4IdLEd2rObMNM5HKUA,JavaID=org.discover.trading.io/IQuoteReader#close()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0" name="AbstractQuoteReader" location="177,140" size="197,106" timstampe="2" stereotype="" id="{UMLID=_076zcIF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/AbstractQuoteReader}" runTimeClassModel="AbstractQuoteReader(Lorg.discover.trading.core.Security;),security">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="security" size="77,21" id="{UMLID=_76DqQIF1Ed25TN8zGEjkCQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AbstractQuoteReader" size="157,16" id="{UMLID=__vdOgIF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/AbstractQuoteReader#AbstractQuoteReader(Lorg.discover.trading.core.Security;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_09s8IIF1Ed25TN8zGEjkCQ}" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,115"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CSVQuoteReader" location="14,280" size="164,268" timstampe="1949" stereotype="" id="{UMLID=_UsheUIF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/CSVQuoteReader}" runTimeClassModel="main([Ljava.lang.String;),headers,beanClass,readAll(),reader,prevQuote,filePath,CSVQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;[Lorg.supercsv.cellprocessor.ift.CellProcessor;Lorg.discover.trading.core.IQuote;),read(),CSVQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;[Lorg.supercsv.cellprocessor.ift.CellProcessor;Lorg.discover.trading.core.IQuote;[Ljava.lang.String;),processors,close(Lorg.discover.trading.core.Security;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,113">
+      <children xsi:type="editmodel:AttributeEditModel" name="beanClass" size="87,16" id="{UMLID=_PXf8kIGFEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="filePath" size="70,16" id="{UMLID=_tY2s0IGEEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="processors" size="89,16" id="{UMLID=_G0GYIIGFEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="headers" size="74,16" id="{UMLID=__QOJYIdKEd2rObMNM5HKUA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="prevQuote" size="93,21" id="{UMLID=__QWsQIdKEd2rObMNM5HKUA}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="reader" size="65,16" id="{UMLID=__Qa9sIdKEd2rObMNM5HKUA}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,108">
+      <children xsi:type="editmodel:MethodEditModel" name="close" size="133,16" id="{UMLID=_XIz6kIF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/CSVQuoteReader#close(Lorg.discover.trading.core.Security;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" size="65,16" id="{UMLID=_UsmW0IF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/CSVQuoteReader#read()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" size="66,16" id="{UMLID=__RbqUIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/CSVQuoteReader#main([Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CSVQuoteReader" size="137,16" id="{UMLID=__RlbUIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/CSVQuoteReader#CSVQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;[Lorg.supercsv.cellprocessor.ift.CellProcessor;Lorg.discover.trading.core.IQuote;[Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CSVQuoteReader" size="137,16" id="{UMLID=__SD8cIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/CSVQuoteReader#CSVQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;[Lorg.supercsv.cellprocessor.ift.CellProcessor;Lorg.discover.trading.core.IQuote;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readAll" size="78,16" id="{UMLID=__SYFgIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/CSVQuoteReader#readAll()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_Usj6kIF2Ed25TN8zGEjkCQ}" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextQuoteReader" location="420,308" size="168,160" timstampe="34" stereotype="" id="{UMLID=_8cE8wIF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/TextQuoteReader}" runTimeClassModel="template,readAll(),TextQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;Lorg.discover.trading.core.RegexQuoteTemplate;),source,read(),close(Lorg.discover.trading.core.Security;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,41">
+      <children xsi:type="editmodel:AttributeEditModel" name="source" size="95,16" id="{UMLID=__TGkgIGHEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="template" size="118,21" id="{UMLID=_CwG24IGIEd25TN8zGEjkCQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,36">
+      <children xsi:type="editmodel:MethodEditModel" name="close" size="136,16" id="{UMLID=__kgGQIF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/TextQuoteReader#close(Lorg.discover.trading.core.Security;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" size="94,16" id="{UMLID=_8cP74IF2Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/TextQuoteReader#read()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readAll" size="78,16" id="{UMLID=_gZzZYIdLEd2rObMNM5HKUA,JavaID=org.discover.trading.io/TextQuoteReader#readAll()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TextQuoteReader" size="136,16" id="{UMLID=_gaCp8IdLEd2rObMNM5HKUA,JavaID=org.discover.trading.io/TextQuoteReader#TextQuoteReader(Lorg.discover.trading.core.Security;Ljava.lang.String;Lorg.discover.trading.core.RegexQuoteTemplate;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_8cInIIF2Ed25TN8zGEjkCQ}" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,8" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DatabaseQuoteReader" location="195,280" size="202,137" timstampe="17" stereotype="" id="{UMLID=_IftGsIF3Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/DatabaseQuoteReader}" runTimeClassModel="readAll(),connection,read(),DatabaseQuoteReader(Lorg.discover.trading.core.Security;Ljava.sql.Connection;),close(Lorg.discover.trading.core.Security;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="connection" size="89,16" id="{UMLID=_3bvKMIGIEd25TN8zGEjkCQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="167,72">
+      <children xsi:type="editmodel:MethodEditModel" name="close" size="161,16" id="{UMLID=_OKAXEIF3Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/DatabaseQuoteReader#close(Lorg.discover.trading.core.Security;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="read" size="65,16" id="{UMLID=_S2eGMIF3Ed25TN8zGEjkCQ,JavaID=org.discover.trading.io/DatabaseQuoteReader#read()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DatabaseQuoteReader" size="167,16" id="{UMLID=__omNIIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/DatabaseQuoteReader#DatabaseQuoteReader(Lorg.discover.trading.core.Security;Ljava.sql.Connection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="readAll" size="78,16" id="{UMLID=__owlMIdKEd2rObMNM5HKUA,JavaID=org.discover.trading.io/DatabaseQuoteReader#readAll()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" size="2,1" description="Generalization" autoLocated="true" id="{UMLID=_MlM8cIF3Ed25TN8zGEjkCQ}" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,106"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="420,308" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

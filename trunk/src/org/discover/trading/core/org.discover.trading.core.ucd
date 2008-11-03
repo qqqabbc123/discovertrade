@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="org.discover.trading.core" id="{UMLID=_HBqGcIGaEd25TN8zGEjkCQ,JavaID=org.discover.trading.core}" metadata="uml2-1.0" initialized="true" tag="10" key="323030373036323920446973636F766572">
+  <children xsi:type="editmodel:ClassEditModel" name="FeedSource" location="56,140" size="176,281" timstampe="397" stereotype="" id="{UMLID=_MB_MwIGaEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource}" runTimeClassModel="getFeedType(),setFeedURL(Ljava.lang.String;),feedURL,csvFilePath,setCsvFilePath(Ljava.lang.String;),setFeedType(I),feedType,getCsvFilePath(),databaseConnection,FeedSource(ILjava.lang.String;Ljava.lang.String;Ljava.sql.Connection;),setDatabaseConnection(Ljava.sql.Connection;),getDatabaseConnection(),getFeedURL()">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="databaseConnection" size="82,16" id="{UMLID=_pU6UQIGaEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="csvFilePath" size="43,16" id="{UMLID=_avCQAIGaEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="feedType" size="51,16" id="{UMLID=_VECcEIGaEd25TN8zGEjkCQ}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="feedURL" size="45,16" id="{UMLID=_glftEIGaEd25TN8zGEjkCQ}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:MethodEditModel" name="FeedSource" size="99,16" id="{UMLID=_UwTLQIGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#FeedSource(ILjava.lang.String;Ljava.lang.String;Ljava.sql.Connection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCsvFilePath" size="111,16" id="{UMLID=_Uxmy0IGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#getCsvFilePath()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDatabaseConnection" size="155,16" id="{UMLID=_UxWUIIGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#getDatabaseConnection()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFeedType" size="103,16" id="{UMLID=_UxsSYIGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#getFeedType()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFeedURL" size="99,16" id="{UMLID=_0JBFIIGcEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#getFeedURL()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCsvFilePath" size="111,16" id="{UMLID=_UxgFIIGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#setCsvFilePath(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDatabaseConnection" size="155,16" id="{UMLID=_Ux6U0IGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#setDatabaseConnection(Ljava.sql.Connection;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFeedType" size="103,16" id="{UMLID=_Ux34kIGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#setFeedType(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFeedURL" size="99,16" id="{UMLID=_UwGW8IGbEd25TN8zGEjkCQ,JavaID=org.discover.trading.core/FeedSource#setFeedURL(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Security" location="308,168" size="92,47" timstampe="7" stereotype="" id="{UMLID=_6tV_gIF1Ed25TN8zGEjkCQ,JavaID=org.discover.trading.core/Security}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,0" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>
